@@ -9,7 +9,7 @@ def bfs(graph, start_vertex, target_value):
         visited.add(current_vertex)
 
         for neighbor in graph[current_vertex]:
-            print("The neighbours are: {0}".format(neighbor))
+            #print("The neighbours are: {0}".format(neighbor))
             if neighbor not in visited:
                 if neighbor == target_value:
                     return path + [neighbor]

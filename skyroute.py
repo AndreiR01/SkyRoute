@@ -113,7 +113,7 @@ def get_active_stations():
                 updated_metro[current_station] = set([])
 
     return updated_metro
-    
+
 #TEST-CASE ------Use to test if get_active_stations function works
 # for active_stations, connections in active_stations.items():
 #     print(active_stations + '-' + str(connections))
